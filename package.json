@@ -1,0 +1,28 @@
+{
+  "name": "node-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Yumiko0828",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "latest",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "latest",
+    "express-session": "latest",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0",
+    "passport": "latest",
+    "passport-local": "latest"
+  }
+}
