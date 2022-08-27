@@ -1,0 +1,8 @@
+<% if (!user) { %>
+<a href="/auth">Login</a>
+<% } else { %>
+<a href=""><%= user.uid %></a>
+<a href=""><%= user.username %></a>
+<a href=""><%= user.email %></a>
+<a href=""><%= user.password %></a>
+<% } %>
